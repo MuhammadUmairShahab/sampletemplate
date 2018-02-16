@@ -6,15 +6,18 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #fff;
+   
 }
 
 .wrapper a {
-    color: #fff;
+    color: rgb(202, 202, 202);
+
 }
 
 .wrapper .banner {
     width: 100%;
     height: 561px;
+    overflow: hidden;
     position: relative;
 }
 
@@ -23,66 +26,67 @@ body {
     background-size: cover;
     width: 100%;
     height: 100%;
+    /* overflow: hidden; */
     position: absolute;
     top: 0px;
     left: 0px;
     -webkit-filter: brightness(55%);
             filter: brightness(55%);
+            overflow: hidden;
 }
 
-.wrapper .banner .navbar-collapse {
-    padding: 6px 0;
-    display: -webkit-box!important;
-    display: -ms-flexbox!important;
-    display: flex!important;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-}
+
 
 .wrapper .banner .nav.left a{
     border-radius: 4px;
     border: 1px solid #fff;
-    padding: 8px 15px;
+    margin: 10px;
+    /* padding: 15px; */
+    overflow: hidden;
 }
 
 .wrapper .banner .nav.left .register a {
     border: none;
     background-color: #009999;
+    overflow: hidden;
 }
 
 .wrapper .banner .nav.left .login a {
     border: none;
     color: #999;
     background-color: #fff;
+    overflow: hidden;
 }
 
 .wrapper .banner .nav.left .login .caret {
     color: #999;   
+    overflow: hidden;
 }
 
 .wrapper .banner .nav:not(.left)>li>a {
     line-height: 20px;
+    overflow: hidden;
 }
 
 .wrapper .banner .nav>li>a {
     margin: 0 5px;
+    overflow: hidden;
 }
 
 .wrapper .banner .nav>li>a span {
     margin-right: 6px;
+    overflow: hidden;
 }
 
 .wrapper .banner .nav>li>a:focus,
 .wrapper .banner .nav>li>a:hover {
     background-color: transparent;
+    overflow: hidden;
 }
 
 .navbar .icon-bar {
     background-color: #fff;
+    overflow: hidden;
 }
 
 .banner-name .flex-container {
@@ -100,6 +104,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 .sellapps-buyapps .flex-container {
@@ -114,18 +119,20 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 170px;
+    overflow: hidden;
 }
 
 .sellapps-buyapps .flex-container>div {
     width: 220px;
-    margin: 0 20px;
+   
     padding: 10px;
     text-align: center;
     font-size: 20px;
+    overflow: hidden;
 }
 
-.Account-links .flex-container,
-.viewmorelink .flex-container {
+
+.Account-links .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -136,22 +143,25 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+            overflow: hidden;
 }
 
-.Account-links .flex-container>div,
-.viewmorelink .flex-container>div {
+.Account-links .flex-container>div{
     background-color: #ff8800;
     width: 220px;
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
     text-align: center;
+    
     /* line-height: 50px; */
     font-size: 20px;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .page-links .links-container {
     height: 50px;
+    overflow: hidden;
 }
 
 .page-links .search-container {
@@ -165,10 +175,12 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+            overflow: hidden;
 }
 
 .page-links .search-container .input-group {
     width: 400px;
+    overflow: hidden;
 }
 
 .page-links .search-container .input-group input,
@@ -177,24 +189,29 @@ body {
     -webkit-box-shadow: none;
             box-shadow: none;
     border-color: #ccc;
+    overflow: hidden;
 }
 
 .page-links a, i {
     color: #999999;
+    overflow: hidden;
 }
 
 .page-links .navbar {
     padding: 10px;
     background-color: #fff;
+    overflow: hidden;
 }
 
 .page-links ul li a {
     font-size: 16px;
     border-right: 1px solid #cccccc;
+    overflow: hidden;
 }
 
 .page-links ul li a:hover {
     background-color: #fff;
+    overflow: hidden;
 }
 
 .tabs-sec .tabs {
@@ -210,6 +227,7 @@ body {
     margin: 30px 0px;
     list-style: none;
     padding: 0px;
+    overflow: hidden;
 }
 
 .tabs-sec .tabs .tab {
@@ -227,6 +245,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+            overflow: hidden;
 }
 
 .tabs-sec .tabs .tab hr {
@@ -234,10 +253,12 @@ body {
     width: 40%;
     margin-top: 6px;
     border-top: 4px solid #ff6600;
+    overflow: hidden;
 }
 
 .tabs-sec .tabs .tab.active hr {
     opacity: 1;
+    overflow: hidden;
 }
 
 .tabs-sec .tabs .tab a{
@@ -245,10 +266,12 @@ body {
     color: #000;
     font-size: 16px;
     text-decoration: none;
+    overflow: hidden;
 }
 
 .tabs-sec .tabs .tab.active a{
     color: #ff6600;
+    overflow: hidden;
 }
 
 .tabs-sec .tab-content .flex-container {
@@ -264,22 +287,26 @@ body {
         -ms-flex-align: center;
             align-items: center;
     margin: 0 -15px;
+    overflow: hidden;
 }
 
 .tabs-sec .tab-content .flex-container > div {
     margin: 10px;
     width: calc(20% - 20px);
     background-color: #ffffff;
+    overflow: hidden;
 }
 
 .tabs-sec .tab-content .flex-container > div img {
     width: 100%;
+    overflow: hidden;
 }
 
 .tabs-sec .tab-content .flex-container ul {
     list-style: none;
     margin: 0;
     padding: 6px;
+    overflow: hidden;
 }
 
 .tabs-sec .tab-content .flex-container ul li {
@@ -287,6 +314,7 @@ body {
     font-size: 16px;
     width: 100%;
     margin: 5px 0;
+    overflow: hidden;
 }
 
 .tabs-sec .tab-content .flex-container ul li.heading {
@@ -295,6 +323,7 @@ body {
     overflow: hidden;
     -o-text-overflow: ellipsis;
        text-overflow: ellipsis;
+
 }
 
 .tabs-sec .tab-content .flex-container ul li.tags {
@@ -307,6 +336,7 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;   
+            overflow: hidden;
 }
 
 .tabs-sec .tab-content .flex-container ul li.price-and-rating {
@@ -319,6 +349,7 @@ body {
             justify-content: space-between;
     -ms-flex-line-pack: center;
         align-content: center;
+        overflow: hidden;
 }
 
 .tabs-sec .icon {
@@ -334,26 +365,56 @@ body {
             align-items: center;
     margin-right: 12px;
     height: 20px;
+    overflow: hidden;
 }
 
 .tabs-sec .icon glyphicon,
 .tabs-sec .icon .text {
     font-size: 12px;
     color: #999999;
+    overflow: hidden;
 }
 
 .tabs-sec .icon .text {
     margin-left: 6px;
     line-height: 20px;
+    overflow: hidden;
+}
+.viewmorelink .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            overflow: hidden;
+}
+.viewmorelink .flex-container>div {
+    background-color: #ff8800;
+    width: 220px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+    /* line-height: 50px; */
+    font-size: 20px;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .feature {
     margin-top: 30px;
+    overflow: hidden;
 }
 
 .blog-links {
     background-color: #e8e8e8;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 .blog-links .flex-container {
@@ -369,31 +430,37 @@ body {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 30px;
+    overflow: hidden;
 }
 
 .blog-links .flex-container > div {
     background-color: #fff;
     width: calc(25% - 20px);
     margin: 10px;
+    overflow: hidden;
 }
 
 .blog-links .flex-container > div img {
     width: 100%;
+    overflow: hidden;
 }
 
 .blog-links .flex-container > div .info {
     padding: 10px;
+    overflow: hidden;
 } 
 
 .blog-links .flex-container > div .info h4 {
     color: #66cccc;
     font-size: 20px;
     margin: 5px 0;
+    overflow: hidden;
 }
 
 .blog-links .txtclr {
     color: #000;
     padding: 5px;
+    
 }
 
 .news-links .flex-container {
@@ -409,27 +476,32 @@ body {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 30px;
+    overflow: hidden;
 }
 
 .news-links .flex-container > div {
     background-color: #fff;
     width: calc(25% - 20px);
     margin: 10px;
+    overflow: hidden;
 }
 
 .news-links .flex-container > div .date {
     color: #66cccc;
     font-size: 16px;
+    overflow: hidden;
 }
 
 .news-links .flex-container > div .info {
     padding: 10px;
+    overflow: hidden;
 } 
 
 .news-links .flex-container > div .info h4 {
     color: #66cccc;
     font-size: 20px;
     margin: 5px 0;
+    overflow: hidden;
 }
 
 .news-links .txtclr {
@@ -448,6 +520,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+            overflow: hidden;
 }
 
 .viewmorelink-2 .flex-container > div {
@@ -458,6 +531,7 @@ body {
     text-align: center;
     font-size: 20px;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .blog-links .txtclr2 {
@@ -469,6 +543,7 @@ body {
     background-color: #333333;
     margin-top: 50px;
     padding: 20px;
+    overflow: hidden;
 }
 
 .footer ul li, h4 {
@@ -476,10 +551,12 @@ body {
     padding: 5px;
     margin: 0;
     margin-top: 10px;
+    overflow: hidden;
 }
 
 .footer ul li a, .footer ul li a:hover {
     text-decoration: none;
+
 }
 
 .copyrightline .flex-container {
@@ -491,9 +568,11 @@ body {
             justify-content: center;
     margin-top: 70px;
     padding-top: 20px;
+    overflow: hidden;
 }
 
 .copyrightline .flex-container div,
 .copyrightline .flex-container sup {
     color: #999999;
+    overflow: hidden;
 }
